@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 24, 27);
+}
+
+.body {
+    height: 90vh;
+    width: 90vw;
+    background-color: aquamarine;
+    margin: auto;
+    display: flex;
+    align-items: end;
+}
+
+
+.ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 70%;
+    background-color: brown;
+    animation: MoveUp 10s ease-in-out 0s infinite;
+}
+@keyframes MoveUp {
+0%{
+    
+}
+10%{
+    transform: translate(8vw,-50vh);
+}
+
+20%{
+    transform: translate(16vw,0rem);
+}
+30%{
+    transform: translate(24vw,-50vh);
+}
+40%{
+    transform: translate(32vw,0rem)
+}
+50%{
+    transform: translate(40vw,-50vh);
+}
+60%{
+    transform: translate(48vw,0rem)
+}
+70%{
+    transform: translate(56vw,-50vh);
+}
+80%{
+    transform: translate(64vw,0rem)
+}
+90%{
+    transform: translate(72vw,-50vh);
+}
+100%{
+    transform: translate(80vw,0rem)
+}
+}
+
